@@ -1,0 +1,524 @@
+/* ================================== GLOBAL =============================== */
+/* ================================== GLOBAL =============================== */
+.html, body {
+  line-height: 160%;
+  color: #FFFFFF;
+  background: #000000;
+  font-family: Noto Sans, sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container {
+  max-width: 1410px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+h1{
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+}
+.main__mission{
+  padding: 246px 206px 283px 0px;
+}
+.main__scanner{
+  padding: 300px 0 0px;
+}
+.main__bitool {
+  padding: 294px 114px 223px 320px;
+}
+.main__guests{
+  padding: 170px 0 0 0;
+  background: url("../images/neon/guests-neon.svg") 100% 20% no-repeat;
+}
+.main__get {
+  padding: 100px 540px 91px;
+  background: url("../images/neon/get-neon1.svg") 25% -50% no-repeat, url("../images/neon/get-neon2.svg") 80% 200% no-repeat;
+}
+/* ================================== HEADER =============================== */
+/* ================================== HEADER =============================== */
+.header{
+  background: url("../images//neon/header-neon2.svg")10% 36%  no-repeat, url("../images/neon/header-neon.svg") 100% -50% no-repeat;
+}
+.header__top {
+  padding-top: 45px;
+}
+.header__top-inner {
+  display: flex;
+}
+.header__login {
+  display: flex;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 45px 0px 0px 108px;
+}
+.header__login-text {
+  text-decoration: underline;
+}
+.header__login-text a {
+  margin-left: 8px;
+}
+.header__body-inner{
+  position: relative;
+}
+.header__main {
+  display: flex;
+  margin-top: 181px;
+}
+.header__content {
+  display: flex;
+}
+.header__title {
+  font-size: 64px;
+  line-height: 109%;
+  align-items: flex-end;
+}
+.header__about {
+  padding: 88px 0 267px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  display: flex;
+  align-items: flex-end;
+}
+.header__about-svg{
+  margin-right: 31px;
+}
+.header__img-tel {
+  position: absolute;
+  top: -300px;
+  right: 75px;
+}
+.header__download {
+  display: flex;
+  padding-bottom: 15px;
+}
+.download__title {
+  font-weight: 700;
+font-size: 35px;
+line-height: 200%;
+align-items: flex-end;
+padding-right: 388px;
+}
+.download__app {
+  display: flex;
+}
+.download__app-store{
+  margin-right: 28px;
+}
+.bottom__cookies{
+  display: flex;
+  background: #212834;
+  padding:22px 24px 22px 100px;
+}
+.bottom__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 54px;
+  margin-right: 550px;
+}
+.bottom__button {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0.5px solid #FFFFFF;
+  border-radius: 6px;
+  padding: 15px 50px 18px;
+}
+.header__bottom-contanct{
+  padding: 61px 176px 0px 176px;
+  display: flex;
+}
+.header__contact-mail{
+  margin: 64px 55px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  align-items: flex-end;
+}
+.header__contact-mail span{
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 350%;
+}
+.header__contact-item{
+  display: block;
+  width: 512px;
+  height: 312px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 21.371px;
+  margin-right: 81px;
+}
+.header__contact-item:last-child{
+  margin-right: 0px;
+}
+.header__contact-login{
+  margin: 97px 123px 94px 55px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 41px;
+  align-items: flex-end;
+}
+.header__contact-login span{
+  text-decoration: underline;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 350%;
+}
+/* ================================== MISSION =============================== */
+/* ================================== MISSION =============================== */
+
+.mission {
+  background: url("../images/neon/mission-neon\ .svg") 75% 25% no-repeat;
+}
+.mission__content {
+  display: flex;
+}
+.mission__tel {
+  position: absolute;
+  top: 1555px;
+  left: 227px;
+}
+.mission__text {
+  padding: 0 0 0 960px;
+}
+.mission__title {
+  font-size: 51px;
+  line-height: 62px;
+  align-items: flex-end;
+  margin-bottom: 23px;
+}
+.mission_paragraph {
+  width: 306px;
+  font-size: 18px;
+  line-height: 25px;
+}
+/* ================================== SCANNER =============================== */
+/* ================================== SCANNER =============================== */
+.scanner__inner {
+  display: flex;
+  height: 1100px;
+  background: url("../images/scanner-id.png") no-repeat;
+}
+.scanner__content {
+  display: flex;
+}
+.scanner__tel {
+  position: relative;
+  top: 451px;
+  left: 110px;
+  margin-right: 50px;
+}
+.scanner__text {
+  position: relative;
+  top: 835px;
+  margin-left: 129px;
+  width: 315px;
+}
+.scanner__title {
+  font-size: 51px;
+  line-height: 62px;
+  margin-bottom: 23px;
+}
+.scanner__paragraph {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+}
+/* ================================== BITOOL =============================== */
+/* ================================== BITOOL =============================== */
+.bitool{
+  background: url('../images/neon/bi__tool.svg') -15% -200% no-repeat;
+}
+.bitool__inner {
+  display: flex;
+}
+.bitool__title {
+  font-size: 51px;
+  line-height: 62px;
+  margin-bottom: 23px;
+}
+.bitool__paragraph {
+  width: 395px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px
+}
+/* ================================== QRCODE =============================== */
+/* ================================== QRCODE =============================== */
+.qrcode__inner {
+  position: relative;
+  background: url("../images/qrcode.png") no-repeat;
+}
+.nightlife{
+  content: "";
+  position: absolute;
+  left: 1200px;
+}
+.qrcode__content {
+  position: relative;
+  top: 543px;
+  display: flex;
+  left: 195px;
+}
+.qrcode__about{
+  width: 377px;
+  margin-right: 80px;
+}
+.qrcode__text-title {
+  font-size: 51px;
+  line-height: 62px;
+  margin-bottom: 23px;
+}
+.qrcode__text-paragraph {
+  width: 315px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 58px;
+}
+.qrcode__down-items{
+  display: flex;
+}
+.qrcode__down-app {
+  margin-right: 28px;
+}
+.qrcode__down-play {
+}
+.qrcode__tel {
+  position: relative;
+  bottom: 322px;
+  margin-right: 80px;
+}
+.qrcode__tel1 {
+  position: relative;
+  top: 20px;
+}
+/* ================================== QRCODEGEN =============================== */
+/* ================================== QRCODEGEN =============================== */
+.qrcodegen__inner {
+  position: relative;
+  width: 100%;
+  padding-top: 700px;
+  background: url("../images/notab.svg")10% 75% no-repeat, url("../images/neon/qrcode-neon.svg") 10% -150% no-repeat
+}
+.qrcodegen__notab {
+  position: relative;
+  left: 563px;
+  display: flex;
+  font-size: 21px;
+  line-height: 26px;
+}
+.qrcodegen__notab-tel{
+  position: relative;
+  top: -110px;
+}
+.qrcodegen__notab-svg{
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+.qrcodegen__text {
+  display: flex;
+  margin-left: 100px;
+}
+.qrcodegen__text-title {
+  font-size: 51px;
+  line-height: 62px; 
+  margin-right: 550px;   
+}
+.qrcodegen__text-paragraph {
+  font-size: 18px;
+  line-height: 25px;
+}
+/* ================================== GUESTS =============================== */
+/* ================================== GUESTS =============================== */
+.guests__inner {
+  height: 1100px;
+}
+.guests__text {
+  margin-left: 859px;
+}
+.guests__text-title {
+  font-size: 51px;
+  line-height: 62px;
+  margin-bottom: 23px;
+}
+.guests__text-paragraph {
+  font-size: 18px;
+  line-height: 25px;
+}
+.comm__items{
+  display: flex;
+}
+.guests__tel {
+  position: relative;
+  left: 300px;
+}
+.comm__item-first {
+  position: relative;
+  left: 275px;
+  bottom: 680px;
+  background: #000000;
+  border: 0.76007px solid rgba(255, 255, 255, 0.5);
+  border-radius: 18.2417px;
+  padding: 30px 26px;
+  width: 285px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22.8021px;
+  line-height: 27px;
+}
+.comm__item-second {
+  position: relative;
+  left: 495px;
+  bottom: 420px;
+  background: #000000;
+  border: 0.76007px solid rgba(255, 255, 255, 0.5);
+  border-radius: 18.2417px;
+  padding: 19px 25px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22.8021px;
+  line-height: 27px;
+  width: 180px;
+}
+.comm__item-third {
+  position: relative;
+  left: 775px;
+  bottom: 1020px;
+  background: #000000;
+  border: 0.76007px solid rgba(255, 255, 255, 0.5);
+  border-radius: 18.2417px;
+  padding: 22px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22.8021px;
+  line-height: 27px;
+  width: 270px;
+}
+.comm__item-fourth {
+  position: relative;
+  left: 1000px;
+  bottom: 685px;
+  background: #000000;
+  border: 0.76007px solid rgba(255, 255, 255, 0.5);
+  border-radius: 18.2417px;
+  padding: 19px 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 22.8021px;
+  line-height: 27px;
+  width: 190px;
+}
+/* ================================== NOTAB =============================== */
+/* ================================== NOTAB =============================== */
+.notab__inner {
+  background: url("../images/notab2.png") no-repeat;
+  height: 950px;
+}
+.notab__img {
+  position: relative;
+  top: 380px;
+  left: 290px;
+}
+/* ================================== GET =============================== */
+/* ================================== GET =============================== */
+.get__inner {
+  text-align: center;
+}
+.get__text-title {
+  font-size: 51px;
+  line-height: 62px;
+  margin-bottom: 23px;
+}
+.get__text-paragraph {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 82px;
+}
+.get__reg-item {
+  margin-right: 24px;
+  flex:1 1 auto
+}
+.get__reg-item:last-child {
+  margin-right: 0;
+}
+.get__reg-input,
+.get__reg-text{  
+  background: #FFFFFF;
+  border: 1px solid #5C5C5C;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 23px;
+  padding: 23px 29px;
+}
+.get__reg-input::placeholder,
+.get__reg-text::placeholder{
+  color: #BFBFBF;
+}
+.get__reg-row {
+  display: flex;
+}
+.get__reg-button{
+  font-size: 24px;
+  color: #FFFFFF;
+  line-height: 29px;
+  padding: 25px 167px;
+  background: #000000;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+.get__reg-text{
+  margin-bottom: 60px;
+}
+/* ================================== FOOTER =============================== */
+/* ================================== FOOTER =============================== */
+.footer {
+  background: url("../images/neon/footer.svg") 0% 200% no-repeat;
+}
+.footer__top {
+  padding-bottom: 150px;
+}
+.footer__top-inner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 610px;
+}
+.footer__top-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.footer__top-row {
+  display: flex;
+}
+.top__row-app {
+  margin-right: 60px;
+}
+.footer__bottom {
+  padding: 85px 0px;
+}
+.footer__bottom-inner {
+  display: flex;
+  padding: 0 150px;
+  justify-content: space-between;
+}
+.footer__list-item {
+  font-family: 'Avenir';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
